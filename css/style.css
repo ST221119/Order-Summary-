@@ -1,0 +1,89 @@
+body{
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("file:///C:/Users/Jeetu/Desktop/Web%20Development/order-summary-component-main/images/pattern-background-desktop.svg");
+background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+h2{
+  font-family: Red Hat Display;
+  font-weight: 900;
+  padding-top: 20px;
+  color: hsl(223, 47%, 23%);
+}
+
+h4{
+  font-family: Red Hat Display;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 5px;
+  padding-top: 25px;
+}
+
+p{
+  font-family: Red Hat Display;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.6;
+  width: 80%;
+  margin: 0 auto;
+  color: hsl(224, 23%, 55%);
+}
+
+.container{
+    width: 450px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.icon{
+  width: 15%;
+  float: left;
+  margin: 25px;
+}
+
+.annual-plan{
+  width: 80%;
+  height: 100px;
+  background-color: hsl(225, 100%, 98%);
+  margin: 20px auto;
+  border-radius: 15px;
+  text-align: left;
+  position: relative;
+}
+
+.change{
+  position: absolute;
+  right: 30px;
+  bottom: 40px;
+  font-size: 14px;
+}
+
+.img{
+  border-radius: 15px 15px 0 0;
+}
+
+.btn{
+  width: 80%;
+  background-color: hsl(245, 75%, 52%);
+  color: #ffffff;
+  margin: 10px auto 20px auto;
+  padding: 15px;
+  font-family: Red Hat Display;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 15px;
+  border-style: none;
+}
+
+.cancel{
+  margin-bottom: 20px;
+  padding-bottom: 40px;
+  font-weight: 700;
+  font-size: 14px;
+}
